@@ -1,0 +1,55 @@
+.sidebar{
+    width: 100%;
+    height: 713px;
+    /* background-color: aqua; */
+    border: 1px solid silver;
+}
+.logo_box_1{
+    width: 100%;
+    /* border: 1px solid; */
+    text-align: center;
+}
+.logo_1{
+    font-size: 60px;
+    color: lightgreen;
+}
+.box{
+    height: 87%;
+    padding-top: 40%;   
+}
+.home{
+    width: 65%;
+    border: 1px solid;
+    text-align: center;
+    background-color: lightpink;
+    color:rgb(97, 10, 23) ;
+    font-weight: 500;
+    /* justify-content: center; */
+    font-size: 18px;
+    border: none;
+    border-radius: 8px;
+    padding: 3px 0px 0.5px 0px;
+    margin: 0px auto 20px auto;
+}
+.home:hover{
+    cursor: pointer;
+    background-color: rgb(205, 123, 135);
+}
+.course{
+    width: 65%;
+    border: 1px solid;
+    text-align: center;
+    background-color: rgb(217, 217, 217);
+    color:rgb(88, 88, 88) ;
+    font-weight: 500;
+    /* justify-content: center; */
+    font-size: 18px;
+    border: none;
+    border-radius: 8px;
+    padding: 3px 0px 0.5px 0px;
+    margin: auto;
+}
+.course:hover{
+    cursor: pointer;
+    background-color: rgb(163, 163, 163);
+}

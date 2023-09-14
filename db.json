@@ -1,0 +1,84 @@
+{
+  "enrolment": [
+    {
+      "id": 1,
+      "name": "json-server",
+      "course": "Music",
+      "fees": 500,
+      "date": "12-8-23"
+    },
+    {
+      "id": 1,
+      "name": "json-server",
+      "course": "Music",
+      "fees": 500,
+      "date": "12-8-23"
+    },
+    {
+      "id": 1,
+      "name": "json-server",
+      "course": "Music",
+      "fees": 500,
+      "date": "12-8-23"
+    },
+    {
+      "id": 1,
+      "name": "json-server",
+      "course": "Music",
+      "fees": 500,
+      "date": "12-8-23"
+    }
+  ],
+  "courses": [
+    {
+      "id": 1,
+      "name": "json-server",
+      "description": "Music",
+      "instrument": "Guitar",
+      "instructor": "jone doe",
+      "no_of_days": 3,
+      "price": 500
+    },
+    {
+      "id": 1,
+      "name": "json-server",
+      "description": "Music",
+      "instrument": "Guitar",
+      "no_of_days": 3,
+      "price": 500
+    },
+    {
+      "id": 1,
+      "name": "json-server",
+      "description": "Music",
+      "instrument": "Guitar",
+      "no_of_days": 3,
+      "price": 500
+    },
+    {
+      "method": "post",
+      "body": "{\"id\":1694692581332,\"name\":\"asd\",\"description\":\"asd\",\"instrument\":\"piano\",\"instructor\":\"asd\",\"no_of_days\":\"cello\",\"price\":\"500\"}",
+      "header": {
+        "content-type": "application/json"
+      },
+      "id": 2
+    }
+  ],
+  "posts": [
+    {
+      "id": 1,
+      "title": "json-server",
+      "author": "Music"
+    }
+  ],
+  "comments": [
+    {
+      "id": 1,
+      "body": "some comment",
+      "postId": 1
+    }
+  ],
+  "profile": {
+    "name": "typicode"
+  }
+}
