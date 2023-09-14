@@ -1,0 +1,69 @@
+.parent_box{
+    display: flex;
+    width: 100%;
+    /* background-color: aqua; */
+}
+.sidebar_box{
+    width: 10%;
+    /* background-color: bisque; */
+}
+.container_box{
+    width: 90%;
+    height: 713px;
+    background-color: rgb(241, 241, 241);
+    padding: 30px;
+    overflow-y: scroll;
+}
+.box_1{
+    width: 100%;
+    height: 20%;
+    display: grid;
+    grid-template-columns: repeat(5,1fr);
+    grid-gap: 30px;
+}
+.child{
+    border-radius: 8px;
+    display: flex;
+    height: 90%;
+    background-color: white;
+
+    .profile_logo{
+        /* border: 1px solid; */
+        width: 20%;
+        padding-top: 10%;
+
+        & p{
+            width: 90%;
+            height: 42%;
+            text-align: center;
+            background-color: rgb(144, 238, 203);
+            border-radius: 100px;
+            margin-left: 10px;
+        }
+
+        & i{
+            font-size: 25px;
+            /* background-color: rgb(144, 238, 203); */
+        }
+    }
+}
+.info{
+    padding-left: 9%;
+    line-height: 10px;
+    padding-top: 15%;
+
+    #count{
+        font-size: 25px;
+        font-family:Arial, Helvetica, sans-serif;
+    }
+    #stu_info{
+        font-size: 13px;
+        color: rgb(148, 148, 148);
+    }
+    #view{
+        font-size: 12px;
+        color: brown;
+        /* border: 1px solid; */
+        float: right;
+    }
+}
